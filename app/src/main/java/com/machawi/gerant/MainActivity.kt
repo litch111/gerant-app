@@ -9,7 +9,7 @@ import android.webkit.WebViewClient
 class MainActivity : Activity() {
 
     // CHANGE THIS to your actual site's owner/gerant dashboard URL.
-    private val gerantUrl = "https://your-site.vercel.app/gerant"
+    private val gerantUrl = "https://machawi-chez-khriji.vercel.app/gerant"
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
