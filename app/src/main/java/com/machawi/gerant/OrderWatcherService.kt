@@ -34,7 +34,7 @@ import java.net.URL
 class OrderWatcherService : Service() {
 
     private val handler = Handler(Looper.getMainLooper())
-    private val pollIntervalMs = 8000L
+    private val pollIntervalMs = 3000L
     private lateinit var prefs: SharedPreferences
 
     private val projectId = "machawi-chez-khriji"
